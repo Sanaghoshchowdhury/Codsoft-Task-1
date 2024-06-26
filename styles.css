@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(to right, #85bad3, #7bcefe);
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    font-size: 14px;
+}
+
+.buttons .btn {
+    background: #fff;
+    color: #7d83c2;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.header-content {
+    background-image: url('bg image.jpg.png'); /* Update the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+    height: 50vh; /* Optional: Set a height if needed */
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+header .btn {
+    background: #fff;
+    color: #ff7e5f;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+}
+
+section.features {
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    padding: 20px 0;
+}
+
+.features .feature {
+    text-align: center;
+    margin: 20px 0;
+}
+
+section.about-us {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-us img {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+section.services {
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    padding: 50px 0;
+}
+
+.services .service-box {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.services img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background: #85bad3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
